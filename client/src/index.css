@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.skeleton {
+  opacity: 0.7;
+  animation: skeleton 1s infinite linear alternate;
+}
+
+@keyframes skeleton {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
