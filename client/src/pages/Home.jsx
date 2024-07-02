@@ -14,7 +14,10 @@ const Home = ({ term }) => {
         image={HeroImg}
         height={"100vh"}
       />
+      <div className="w-full bg-green-500">
+      
       <AboutSection />
+      </div>
       <div className="container mx-auto">
         <SectionHead par={"Exercises"} title={"Most Popular Exercices"} />
         <ExercicesList term={term} max={8} pagi={false} />
