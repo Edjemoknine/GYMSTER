@@ -34,7 +34,7 @@ const AboutSection = () => {
         initial="initial"
         viewport={{ once: true }}
         whileInView="animate"
-        className="container mx-auto relative h-96"
+        className="container mx-auto relative h-96 bg-red-500"
       >
         <motion.div
           variants={stagger}
